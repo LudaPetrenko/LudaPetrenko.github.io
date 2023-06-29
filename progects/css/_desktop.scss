@@ -1,0 +1,332 @@
+.header {
+    height: 800px;
+  background-image: url(/progects/images/desktop/image-header.jpg);
+    background-size: contain;
+    text-align: center;
+    padding-top: 34px;
+    color: $w;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 56px;
+        margin-bottom: 105px;
+    }
+
+    &__logo {
+        height: 33px;
+        img{
+            width: 170px;
+            height: 33px;
+        }
+    }
+
+    &__menu-item + .header__menu-item {
+        margin-left: 47px;
+    }
+
+    &__menu-link {
+        color: $w;
+        height: 56px;
+        background-color:transparent;
+        padding: 0 32px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.128571px;
+    }
+
+    &__title {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 69px;
+        text-align: center;
+        letter-spacing: 8.75px;
+        text-transform: uppercase;
+        color: $w;
+        margin-bottom: 97px;
+    }
+
+ .active {
+     background: $w;
+     border-radius: 28px;
+     font-family: 'Fraunces 9pt Soft';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 25px;
+     letter-spacing: -0.107143px;
+     text-transform: uppercase;
+     color: #24303E;
+ }
+}
+
+.prop {
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__inner-content {
+        width: 720px;
+        height: 600px;
+        padding: 158px 110px 157px 165px;
+    }
+
+    &__inner-title {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 49px;
+        letter-spacing: -0.285714px;
+        color: #24303E;
+        margin-bottom: 32px;
+    }
+
+    &__inner-text {
+        font-family: 'Barlow';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.128571px;
+        color: #808397;
+        margin-bottom: 40px;
+    }
+
+    &__inner-link {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #24303E;
+        width: 137px;
+        height: 25px;
+        text-align: center;
+        // background-image: url(/progects/images/line.png);
+    }
+        // &__inner-link::after{
+
+        // }
+
+    &__inner-bgfirst {
+        width: 720px;
+        height: 600px;
+        background-image: url(/progects/images/desktop/image-stand-out.jpg);
+    }
+
+    &__inner-bgsecond {
+        width: 720px;
+        height: 600px;
+        background-image: url(/progects/images/desktop/image-transform.jpg);
+    }
+}
+.yellow{
+    width: 137px;
+    background-image: url(/progects/images/line.png);
+    background-repeat: no-repeat;
+    background-position:  bottom;
+}
+.pink{
+    width: 137px;
+    background-image: url(/progects/images/line-pink.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.services {
+
+    &__inner {
+        display: flex;
+
+    }
+
+    &__inner-item {
+        width: 720px;
+        height: 600px;
+        padding-top: 398px;
+    }
+
+    &__inner-title {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: -0.2px;
+        color: #24554A;
+        margin-bottom: 27px;
+    }
+
+    &__innertext {
+        width: 339px;
+        height: 81px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: -0.114286px;
+        color: #3E7467;
+        margin: 0 auto;
+    }
+}
+
+.design {
+    background-image: url(/progects/images/desktop/image-graphic-design.jpg);
+}
+
+.photo {
+    background-image: url(/progects/images/desktop/image-photography.jpg);
+}
+
+.reviews {
+
+    &__inner-title {
+        margin-top: 160px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 5px;
+        color: #A7AAAD;
+    }
+    &__inner-blok{
+        margin-top: 81px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
+.card {
+    width: 350px;
+    // display: flex;
+    // justify-content: center;
+
+
+    &__avatar {
+        display: flex;
+        justify-content: center;
+        img{
+        width: 72px;
+        height: 72px;
+        border-radius:50%;
+
+        }
+
+    }
+
+    &__text {
+        max-width: 350px;
+        // height: 96px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.128571px;
+        color: #5B636D;
+        margin-top: 58px;
+        margin-left: 30px;
+
+    }
+
+    &__name {
+        margin-top: 69px;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.128571px;
+        color: #24303E;
+    }
+
+    &__job {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.1px;
+        color: #A7AAAD;
+    }
+}
+
+.img {
+    margin-top: 160px;
+    // display: flex;
+
+    &__inner {
+        display: flex;
+    }
+
+    &__inner-photo {
+        img{
+            max-width: 360px;
+            // height: 447px;
+        }
+    }
+}
+
+.footer {
+    background: #90D4C6;
+
+    &__inner {
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__inner-content {
+        width: 300px;
+    }
+
+    &__inner-title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    &__inner-menu {
+        margin-bottom: 88px;
+    }
+
+    &__inner-items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__inner-link {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: -0.128571px;
+        color: #458D7E;
+    }
+
+
+    &__inner-soushllinks{
+        width: 164px;
+        height: 20px;
+
+
+    }
+    &__inner-soushllink{
+
+        img :nth-child(1){
+            margin-left: 28px;
+
+        }
+    }
+}
+
